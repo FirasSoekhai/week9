@@ -23,10 +23,10 @@ function users(items) {
     //          objecten id, email, street en adrress aanmaken.
 
     console.log(address.showAddress());
-    console.table(id);
-    console.table(email);
-    console.table(street);
-    console.table(address);
+    console.table(items[count].id);
+    console.table(items[count].email);
+    console.table(items[count].street);
+    console.table(items[count].address);
 }
 
 function createGetRequest(url, callBack) {
